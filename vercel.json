@@ -1,0 +1,9 @@
+{
+  "crons": [
+    { "path": "/api/cron", "schedule": "0 9 * * *" },
+    { "path": "/api/followup", "schedule": "0 10 * * 1" },
+    { "path": "/api/posts/generate", "schedule": "0 8 * * 0" },
+    { "path": "/api/reviews", "schedule": "0 11 * * *" },
+    { "path": "/api/ads/create", "schedule": "0 12 * * 1" }
+  ]
+}

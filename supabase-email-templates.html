@@ -1,0 +1,162 @@
+<!--
+  AZHL أزهل — Supabase Auth Email Templates
+  Paste each template into:
+  Supabase Dashboard → Authentication → Email Templates
+-->
+
+<!-- ══════════════════════════════════════════════════════
+     TEMPLATE 1: Confirm Signup
+     Supabase Dashboard → Authentication → Email Templates → Confirm signup
+     ══════════════════════════════════════════════════════ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confirm your Azhl account</title>
+</head>
+<body style="margin:0;padding:0;background:#FAFAF7;font-family:Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#FAFAF7;padding:40px 16px;">
+    <tr>
+      <td align="center">
+        <table width="480" cellpadding="0" cellspacing="0" style="background:#FFFFFF;border-radius:20px;border:1px solid #E0DDD5;overflow:hidden;max-width:480px;width:100%;">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:#0C1B33;padding:28px 40px;text-align:center;">
+              <table cellpadding="0" cellspacing="0" style="margin:0 auto;">
+                <tr>
+                  <td>
+                    <div style="width:46px;height:46px;background:#0C1B33;border:2px solid rgba(255,255,255,0.15);border-radius:12px;display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;">
+                      <span style="font-size:22px;color:#FFFFFF;font-family:'Arial',sans-serif;font-weight:700;">أ</span>
+                    </div>
+                  </td>
+                  <td style="padding-left:12px;vertical-align:middle;">
+                    <div style="font-size:24px;color:#FFFFFF;font-weight:400;letter-spacing:-0.3px;line-height:1.1;">Azhl</div>
+                    <div style="font-size:11px;color:#12C4AD;font-weight:600;letter-spacing:0.02em;">أزهل</div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:40px 40px 32px;">
+              <h1 style="margin:0 0 12px;font-size:26px;font-weight:400;color:#0C1B33;line-height:1.2;">
+                Welcome to Azhl أزهل
+              </h1>
+              <p style="margin:0 0 24px;font-size:15px;color:#4A4A45;line-height:1.7;">
+                Your AI business assistant is ready. Confirm your email to get started and connect your WhatsApp, social media, and more.
+              </p>
+              <table cellpadding="0" cellspacing="0" style="margin:0 0 28px;">
+                <tr>
+                  <td style="background:#0C1B33;border-radius:12px;">
+                    <a href="{{ .ConfirmationURL }}"
+                       style="display:inline-block;padding:14px 36px;font-size:15px;font-weight:700;color:#FFFFFF;text-decoration:none;font-family:Arial,sans-serif;letter-spacing:0.01em;">
+                      Confirm Email →
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:0;font-size:13px;color:#8A8A82;line-height:1.6;">
+                This link expires in 24 hours. If you didn't create an Azhl account, you can safely ignore this email.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background:#F5F3EE;padding:20px 40px;border-top:1px solid #E8E4DB;">
+              <p style="margin:0;font-size:12px;color:#8A8A82;line-height:1.6;text-align:center;">
+                Azhl أزهل — AI Customer Operations for UAE Businesses<br />
+                <a href="https://azhl.ai" style="color:#0A8F7F;text-decoration:none;">azhl.ai</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+
+
+<!-- ══════════════════════════════════════════════════════
+     TEMPLATE 2: Password Reset
+     Supabase Dashboard → Authentication → Email Templates → Reset password
+     ══════════════════════════════════════════════════════ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reset your Azhl password</title>
+</head>
+<body style="margin:0;padding:0;background:#FAFAF7;font-family:Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#FAFAF7;padding:40px 16px;">
+    <tr>
+      <td align="center">
+        <table width="480" cellpadding="0" cellspacing="0" style="background:#FFFFFF;border-radius:20px;border:1px solid #E0DDD5;overflow:hidden;max-width:480px;width:100%;">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:#0C1B33;padding:28px 40px;text-align:center;">
+              <table cellpadding="0" cellspacing="0" style="margin:0 auto;">
+                <tr>
+                  <td>
+                    <div style="width:46px;height:46px;background:#0C1B33;border:2px solid rgba(255,255,255,0.15);border-radius:12px;display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;">
+                      <span style="font-size:22px;color:#FFFFFF;font-family:'Arial',sans-serif;font-weight:700;">أ</span>
+                    </div>
+                  </td>
+                  <td style="padding-left:12px;vertical-align:middle;">
+                    <div style="font-size:24px;color:#FFFFFF;font-weight:400;letter-spacing:-0.3px;line-height:1.1;">Azhl</div>
+                    <div style="font-size:11px;color:#12C4AD;font-weight:600;letter-spacing:0.02em;">أزهل</div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:40px 40px 32px;">
+              <h1 style="margin:0 0 12px;font-size:26px;font-weight:400;color:#0C1B33;line-height:1.2;">
+                Reset Your Password
+              </h1>
+              <p style="margin:0 0 24px;font-size:15px;color:#4A4A45;line-height:1.7;">
+                We received a request to reset the password for your Azhl account. Click below to choose a new password.
+              </p>
+              <table cellpadding="0" cellspacing="0" style="margin:0 0 28px;">
+                <tr>
+                  <td style="background:#0A8F7F;border-radius:12px;">
+                    <a href="{{ .ConfirmationURL }}"
+                       style="display:inline-block;padding:14px 36px;font-size:15px;font-weight:700;color:#FFFFFF;text-decoration:none;font-family:Arial,sans-serif;letter-spacing:0.01em;">
+                      Reset Password →
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:0;font-size:13px;color:#8A8A82;line-height:1.6;">
+                This link expires in 1 hour. If you didn't request a password reset, you can safely ignore this email — your account remains secure.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background:#F5F3EE;padding:20px 40px;border-top:1px solid #E8E4DB;">
+              <p style="margin:0;font-size:12px;color:#8A8A82;line-height:1.6;text-align:center;">
+                Azhl أزهل — AI Customer Operations for UAE Businesses<br />
+                <a href="https://azhl.ai" style="color:#0A8F7F;text-decoration:none;">azhl.ai</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

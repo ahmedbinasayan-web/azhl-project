@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(stripe --version)",
+      "Bash(npm --version)",
+      "Bash(winget install *)",
+      "Bash(where stripe *)",
+      "Read(//c/Users/PC/AppData/Local/Microsoft/WinGet/**)",
+      "Bash(/c/Users/PC/AppData/Local/Microsoft/WinGet/Links/stripe.exe --version)",
+      "Bash(/c/Users/PC/AppData/Local/Microsoft/WinGet/Links/stripe.exe login *)",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -r -I{} taskkill //PID {} //F)"
+    ]
+  }
+}
