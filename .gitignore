@@ -6,3 +6,5 @@ node_modules/
 *.tsbuildinfo
 dev.db
 *.log
+
+.vercel
